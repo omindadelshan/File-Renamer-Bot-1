@@ -61,20 +61,20 @@ async def start(client, message):
    if message.chat.type == 'private':
        await bot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm a File Renamer Bot With Permanent Thumbnail Support!
+               text="""<b>😋𝙷𝚎𝚢, 𝚃𝚑𝚎𝚛𝚎 🔥𝙸 𝙰𝚖 𝙰 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖 𝙵𝚒𝚕𝚎 𝚁𝚎𝚗𝚊𝚖𝚎𝚛 𝙱𝚘𝚝.🌟... 𝙸 𝙰𝚖 𝚊𝚝𝚑𝚞𝚖𝚋𝚗𝚊𝚒𝚕 𝚜𝚞𝚙𝚙𝚘𝚛𝚝𝚒𝚗𝚐.🇱🇰😋 𝚈𝚘𝚞 𝙲𝚊𝚗 𝙰 𝚁𝚎𝚗𝚊𝚖𝚎 𝙰 𝙵𝚒𝚕𝚎𝚜 𝙸𝚗𝚝𝚘 𝙼𝚎.💠🤖"
 
-Made by @Uvindu_Bro 🇱🇰
+✳️𝙿𝚘𝚠𝚎𝚛𝚍 𝙱𝚢 @sdprojectupdates 🇱🇰 𝙰𝚗𝚍 𝙼𝚊𝚍𝚎 𝙱𝚢 @Omindas 🔥🔥🌟
 
-Hit help button to find out more about how to use me</b>""",   
+👇👇😋Hit 💠help💠 𝚋𝚞𝚝𝚝𝚘𝚗 𝚝𝚘 𝚏𝚒𝚗𝚍 𝚘𝚞𝚝 𝚖𝚘𝚛𝚎 𝚊𝚋𝚘𝚞𝚝 𝚑𝚘𝚠 𝚝𝚘 𝚞𝚜𝚎 𝚖𝚎🤖🇱🇰</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Help 🤔", callback_data="help"),
+                                            "💠𝐇𝐞𝐥𝐩💠", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel 📣", url="https://t.me/UvinduBro_BOTs"),
+                                            "🇱🇰 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐚𝐥 🇱🇰", url="https://t.me/sdprojectupdates"),
                                  ],[
                                         InlineKeyboardButton(
-                                            "Source Code 📦", url="https://github.com/UvinduBro/File-Renamer-Bot")
+                                            "🔥 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 🔥", url="https://t.me/omindas")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -85,25 +85,25 @@ async def help(client, message):
     if message.chat.type == 'private':   
         await bot.send_message(
                chat_id=message.chat.id,
-               text="""<b>File Renamer Help!
+               text="""<b>𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐇𝐞𝐥𝐩 𝐑𝐨𝐨𝐦!
 
-👉 Send any thumbnail to me 
+👉 𝐒𝐞𝐧𝐝 𝐀𝐧𝐲 𝐓𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 𝐓𝐨 𝐌𝐞
 [Do <code>/delthumb</code> to delete thumbnail]
 
-👉 Then send any telegram media file to me
+👉 𝐓𝐡𝐞 𝐒𝐞𝐧𝐝 𝐚𝐧𝐲 𝐌𝐞𝐝𝐢𝐚 𝐅𝐢𝐥𝐞 𝐭𝐨 𝐦𝐞
 
 👉 Finally reply file with <code>/rename NewFile.extension</code>
 
-~ @UvinduBro_BOTs</b>""",
+~ @omindas</b>""",
     reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Back", callback_data="start"),
+                                            "🔙Back🔙", callback_data="start"),
                                         InlineKeyboardButton(
-                                            "About 🤗", callback_data="about"),
+                                            "☢️About☢️", callback_data="about"),
                                   ],[
                                         InlineKeyboardButton(
-                                            "Source Code 📦", url="https://github.com/UvinduBro/File-Renamer-Bot")
+                                            "😇Source Code😇", url="https://github.com/omindadelshan/File-Renamer-Bot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -116,19 +116,19 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b>About File Renamer!</b>
 
-<b>📌 Developer:</b> <a href="https://t.me/Uvindu_Bro">Uvindu Bro 🇱🇰</a>
+<b>📌 Developer🔥:</b> <a href="https://t.me/omindas">Ominda🇱🇰</a>
 
-<b>📌 Support:</b> <a href="https://t.me/UvinduBr">Infinity BOTs Support</a>
+<b>📌 Support🔥:</b> <a href="https://t.me/sdprojectupdates">Channal Support</a>
 
-<b>📌 Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
+<b>📌 Library🔥:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
-<b>~ @UvinduBro_BOTs</b>""",
+<b>~ @omindas</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Back", callback_data="help"),
+                                            "🔙Back🔙", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Source Code 📦", url="https://github.com/UvinduBro/File-Renamer-Bot")
+                                            "Source Code 📦", url="https://github.com/omindadelshan/File-Renamer-Bot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -250,7 +250,7 @@ async def button(bot, update):
 print(
     """
 🤗 Bot Started!
-👉 Join @UvinduBr
+👉 Join @sdprojectupdates
 """
 )
 
